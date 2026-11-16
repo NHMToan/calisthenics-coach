@@ -1,0 +1,23 @@
+<!-- FitMotion mark: an athlete at the top of a pull-up. 1024 canvas, transparent. Rendered by the icon generator. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="196" y1="230" x2="828" y2="910">
+      <stop offset="0" stop-color="#D8FF3E"/>
+      <stop offset="1" stop-color="#2EE6D6"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- bar -->
+    <rect x="186" y="214" width="652" height="56" rx="28" stroke="none"/>
+    <!-- arms: hands on the bar, elbows out, into the shoulders -->
+    <path d="M320 242 L298 400 L430 500" fill="none" stroke-width="66"/>
+    <path d="M704 242 L726 400 L594 500" fill="none" stroke-width="66"/>
+    <!-- head, chin over the bar -->
+    <circle cx="512" cy="356" r="76" stroke="none"/>
+    <!-- torso, tapering to the hips -->
+    <path d="M430 500 L594 500 L566 690 L458 690 Z" stroke-width="44"/>
+    <!-- legs hanging -->
+    <path d="M482 700 L470 880" fill="none" stroke-width="62"/>
+    <path d="M542 700 L554 880" fill="none" stroke-width="62"/>
+  </g>
+</svg>

@@ -12,6 +12,7 @@ npx expo start --ios      # hoặc --android, hoặc quét QR bằng Expo Go
 ## Tính năng
 
 - **59 bài tập**, lọc theo vùng cơ (tay, vai, bụng, chân, thân trên, thân dưới) hoặc theo kiểu (kết hợp, cardio, khởi động). 4 bài kết hợp nhiều động tác liền mạch (hít đất + bật nhảy, hít đất + leo núi, squat + lunge, nâng hông + nâng chân); khi tập, app hiện chuỗi động tác và làm nổi bật bước đang làm. Mỗi bài có avatar làm mẫu, các bước thực hiện, mẹo và lỗi thường gặp. Có chỉnh tốc độ 0.5x / 1x / 1.5x.
+- **3 lộ trình 4 tuần** (Nền tảng, Đốt mỡ, Sức mạnh): mỗi tuần 3–4 buổi lấy từ các giáo án, độ khó tăng dần theo tuần (+10% mỗi bậc). Tiến độ tính theo buổi, không theo ngày lịch: lỡ một hôm thì buổi tiếp theo vẫn chờ. Trang chủ hiện thẻ "Buổi tiếp theo" để bấm tập ngay.
 - **15 giáo án** từ cơ bản đến nâng cao, gồm 6 giáo án theo vùng cơ: tay, vai, bụng, chân & mông, thân trên, thân dưới.
 - **Màn hình tập**: avatar làm mẫu theo nhịp, tự đếm rep theo từng chu kỳ động tác, đếm ngược cho bài tính giờ, nghỉ giữa hiệp có xem trước bài tiếp theo, nút +10s, tạm dừng, chuyển bài trước/sau.
 - **Giọng huấn luyện viên** (ElevenLabs thu sẵn, hoặc giọng máy) đọc tên bài, đếm rep, đếm ngược 3-2-1, cổ vũ (nhiều câu khác nhau, chọn ngẫu nhiên) và nhắc thở/uống nước lúc nghỉ. Ba kiểu đếm: đếm từng lần, đếm + nhịp ("Lên!" / "Hạ chậm"), hoặc chỉ cổ vũ. Có rung phản hồi và giữ màn hình sáng khi tập.
@@ -29,6 +30,7 @@ src/
   avatar/Avatar.tsx  # vẽ avatar bằng react-native-svg, chạy bằng requestAnimationFrame
   data/exercises.ts  # bài tập: nội dung song ngữ + keyframe chuyển động
   data/programs.ts   # giáo án
+  data/plans.ts      # lộ trình 4 tuần (chuỗi buổi tập + bậc tăng độ khó mỗi tuần)
   data/progression.ts # tăng/giảm độ khó, bài khó hơn, điểm nhắc nhịp lên/xuống
   store.tsx          # cài đặt, lịch sử, buổi tập tự tạo, mức độ khó (AsyncStorage)
   voice.ts           # phát giọng HLV (expo-audio), dự phòng bằng expo-speech
@@ -44,6 +46,16 @@ Mỗi động tác là một chuỗi tư thế (keyframe). Một tư thế gồm
 - `T(x, y)`: đặt điểm đích của bàn tay/bàn chân, IK tự tính khớp khuỷu/gối. Nhờ vậy tay chân bám chắc vào sàn, xà hoặc ghế.
 
 Khung hình là 240×200, sàn ở `y = 185`. Hằng số `G` là độ cao của cổ chân khi chạm sàn.
+
+## Icon app và splash
+
+Icon, các lớp adaptive icon Android, ảnh splash và favicon đều được vẽ từ `assets/brand/mark.svg`. Sửa file SVG xong thì chạy:
+
+```bash
+npm i --no-save sharp && node scripts/gen-icons.cjs
+```
+
+Splash cấu hình qua plugin `expo-splash-screen` trong `app.json`. Expo Go và development build không hiện splash thật, phải xem bằng bản preview/production.
 
 ## Ảnh nền phòng tập
 
