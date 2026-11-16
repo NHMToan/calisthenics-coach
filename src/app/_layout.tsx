@@ -40,6 +40,7 @@ export default function RootLayout() {
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="exercise/[id]" options={{ title: '', headerBackButtonDisplayMode: 'minimal' }} />
           <Stack.Screen name="program/[id]" options={{ title: '', headerBackButtonDisplayMode: 'minimal', headerTransparent: true, headerStyle: { backgroundColor: 'transparent' } }} />
+          <Stack.Screen name="plan/[id]" options={{ title: '', headerBackButtonDisplayMode: 'minimal' }} />
           <Stack.Screen name="builder" options={{ title: '', headerBackButtonDisplayMode: 'minimal' }} />
           <Stack.Screen name="workout/[id]" options={{ headerShown: false, presentation: 'fullScreenModal', gestureEnabled: false }} />
         </Stack>

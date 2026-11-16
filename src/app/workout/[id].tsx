@@ -8,6 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ExerciseMedia } from '@/components/ExerciseMedia';
 import { Button, Chip, ComboSteps, IconButton, Ionicons, ProgressBar, StatTile, s as ui } from '@/components/ui';
 import { EXERCISE_MAP, Exercise } from '@/data/exercises';
+import { PLAN_MAP, planEntries } from '@/data/plans';
 import { Program } from '@/data/programs';
 import { applyAdjust, tempoCue } from '@/data/progression';
 import { cueVariants, REST_TIPS } from '@/data/voiceLines';
@@ -64,15 +65,21 @@ const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).p
 
 export default function Workout() {
   useKeepAwake();
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const { t, tx, settings, addSession, getProgram, adjust, setAdjust } = useStore();
+  const { id, plan: planId, session } = useLocalSearchParams<{ id: string; plan?: string; session?: string }>();
+  const { t, tx, settings, addSession, getProgram, adjust, setAdjust, completePlanSession } = useStore();
+  // opened as a plan session: that week's extra progression steps go on top of the user's own level
+  const planEntry = useMemo(() => {
+    const plan = planId ? PLAN_MAP[planId] : undefined;
+    const e = plan ? planEntries(plan)[Number(session)] : undefined;
+    return e && e.programId === id ? e : undefined;
+  }, [planId, session, id]);
   // progression is read once when the workout opens, so rating it at the end doesn't change it mid-screen
   const [level] = useState(() => adjust[id] ?? 0);
   const program = useMemo(() => {
     const p = resolveProgram(id, getProgram);
-    return p && applyAdjust(p, level);
+    return p && applyAdjust(p, level + (planEntry?.step ?? 0));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, level]);
+  }, [id, level, planEntry]);
   const steps = useMemo(() => (program ? buildSteps(program) : []), [program]);
   const totalWork = steps.filter((s) => s.kind === 'work').length;
   const [feel, setFeel] = useState<Feel | undefined>();
@@ -263,7 +270,9 @@ export default function Workout() {
     addSession({
       programId: program.id, title: program.title, date: new Date().toISOString(),
       durationSec: Math.round(total), kcal, exercises: totalWork, feel,
+      ...(planEntry && planId ? { planId } : {}),
     });
+    if (planEntry && planId) completePlanSession(planId, planEntry.index);
     if (feel === 'easy') setAdjust(program.id, level + 1);
     else if (feel === 'hard') setAdjust(program.id, level - 1);
     router.back();

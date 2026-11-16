@@ -3,10 +3,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { ExerciseMedia } from '@/components/ExerciseMedia';
+import { ActivePlanCard, PlanCard } from '@/components/plan';
 import {
   Button, Card, EmojiTile, Ionicons, IconName, LevelBadge, Rise, SectionHeader, StatTile, estimateProgramSeconds,
 } from '@/components/ui';
 import { EXERCISE_MAP } from '@/data/exercises';
+import { PLAN_MAP, planNext, PLANS } from '@/data/plans';
 import { PROGRAM_MAP, PROGRAMS } from '@/data/programs';
 import { computeStreak, useStore } from '@/store';
 import { alpha, colors, fonts, gradients, levelColor, radius, type } from '@/theme';
@@ -24,7 +26,9 @@ function Meta({ icon, label }: { icon: IconName; label: string }) {
 }
 
 export default function Home() {
-  const { t, tx, history, customPrograms } = useStore();
+  const { t, tx, history, customPrograms, activePlan } = useStore();
+  const onPlan = !!(activePlan && PLAN_MAP[activePlan.id]);
+  const planDone = onPlan && !planNext(PLAN_MAP[activePlan!.id], activePlan!.done);
   const streak = computeStreak(history);
   const [now] = useState(() => Date.now());
   const weekAgo = now - 7 * 864e5;
@@ -79,6 +83,13 @@ export default function Home() {
             <Button label={t('start')} icon="play" onPress={() => router.push(`/workout/${suggested.id}`)} />
           </View>
         </Card>
+      </Rise>
+
+      <Rise delay={150} style={{ gap: 12 }}>
+        <SectionHeader title={t('plans')} />
+        {onPlan && <ActivePlanCard />}
+        {/* while a plan runs only its card shows; once it's finished the others come back as next steps */}
+        {(!onPlan || planDone) && PLANS.filter((p) => p.id !== activePlan?.id || !onPlan).map((p) => <PlanCard key={p.id} plan={p} />)}
       </Rise>
 
       <Rise delay={180} style={{ gap: 12 }}>

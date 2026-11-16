@@ -3,6 +3,7 @@ import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, 
 import { Key, Lang, translate } from './i18n';
 import { EXERCISE_MAP, Text } from './data/exercises';
 import { Program, PROGRAM_MAP } from './data/programs';
+import { PLAN_MAP } from './data/plans';
 import { syncReminders } from './reminders';
 
 export type Session = {
@@ -15,7 +16,12 @@ export type Session = {
   exercises: number;
   /** how hard it felt, answered on the finish screen */
   feel?: Feel;
+  /** set when the session was a step of a 4-week plan */
+  planId?: string;
 };
+
+/** The 4-week plan the user follows: `done` sessions of it are complete (sessions, not calendar days). */
+export type ActivePlan = { id: string; started: string; done: number };
 
 export type Feel = 'easy' | 'ok' | 'hard';
 
@@ -53,6 +59,11 @@ type Store = {
   getProgram: (id: string) => Program | undefined;
   adjust: Record<string, number>;
   setAdjust: (programId: string, value: number) => void;
+  activePlan: ActivePlan | null;
+  startPlan: (id: string) => void;
+  quitPlan: () => void;
+  /** marks plan session `index` done; ignored unless it is the plan's next session */
+  completePlanSession: (planId: string, index: number) => void;
   t: (k: Key) => string;
   tx: (x: Text) => string;
 };
@@ -61,6 +72,7 @@ const KEY_SETTINGS = 'fm.settings.v1';
 const KEY_HISTORY = 'fm.history.v1';
 const KEY_CUSTOM = 'fm.custom.v1';
 const KEY_ADJUST = 'fm.adjust.v1';
+const KEY_PLAN = 'fm.plan.v1';
 const DEFAULT: Settings = {
   lang: 'vi', voice: true, voiceStyle: 'coach', countMode: 'count', haptics: true, media: 'video',
   reminder: false, reminderAt: 18 * 60,
@@ -84,6 +96,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [history, setHistory] = useState<Session[]>([]);
   const [customPrograms, setCustom] = useState<CustomProgram[]>([]);
   const [adjust, setAdjustState] = useState<Record<string, number>>({});
+  const [activePlan, setActivePlan] = useState<ActivePlan | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -102,6 +115,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         load<Session[]>(KEY_HISTORY, (h) => Array.isArray(h) && setHistory(h)),
         load<CustomProgram[]>(KEY_CUSTOM, (c) => Array.isArray(c) && setCustom(c.map(dropUnknownExercises).filter((p) => p.items.length > 0))),
         load<Record<string, number>>(KEY_ADJUST, (a) => a && typeof a === 'object' && setAdjustState(a)),
+        // a plan a later app version removed is simply dropped
+        load<ActivePlan | null>(KEY_PLAN, (a) => a && PLAN_MAP[a.id] && typeof a.done === 'number' && setActivePlan(a)),
       ]);
       setReady(true);
     })();
@@ -167,16 +182,41 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  const writePlan = useCallback((next: ActivePlan | null) => {
+    badKeys.delete(KEY_PLAN); // starting or quitting is an explicit choice, it may replace an unreadable value
+    save(KEY_PLAN, next);
+    return next;
+  }, []);
+
+  const startPlan = useCallback(
+    (id: string) => setActivePlan(writePlan({ id, started: new Date().toISOString(), done: 0 })),
+    [writePlan],
+  );
+
+  const quitPlan = useCallback(() => setActivePlan(writePlan(null)), [writePlan]);
+
+  const completePlanSession = useCallback((planId: string, index: number) => {
+    setActivePlan((prev) => {
+      // a session replayed from an old link, or a plan switched mid-workout, must not move progress
+      if (!prev || prev.id !== planId || prev.done !== index) return prev;
+      const next = { ...prev, done: prev.done + 1 };
+      save(KEY_PLAN, next);
+      return next;
+    });
+  }, []);
+
   const value = useMemo<Store>(
     () => ({
       ready, settings, setSettings, history, addSession, clearHistory,
       customPrograms, saveCustom, deleteCustom,
       getProgram: (id) => PROGRAM_MAP[id] ?? customPrograms.find((p) => p.id === id),
       adjust, setAdjust,
+      activePlan, startPlan, quitPlan, completePlanSession,
       t: (k) => translate(settings.lang, k),
       tx: (x) => x[settings.lang],
     }),
-    [ready, settings, setSettings, history, addSession, clearHistory, customPrograms, saveCustom, deleteCustom, adjust, setAdjust],
+    [ready, settings, setSettings, history, addSession, clearHistory, customPrograms, saveCustom, deleteCustom, adjust, setAdjust,
+      activePlan, startPlan, quitPlan, completePlanSession],
   );
 
   // screens read saved workouts and progression once on open, so they wait until storage has loaded
