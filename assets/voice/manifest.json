@@ -1,0 +1,1358 @@
+{
+  "vi": {
+    "go": {
+      "hash": "ea42474f396e",
+      "text": "[excited] Bắt đầu!"
+    },
+    "ready": {
+      "hash": "1c0dbccac69e",
+      "text": "Chuẩn bị!"
+    },
+    "next": {
+      "hash": "5c0893bd3c64",
+      "text": "Tiếp theo:"
+    },
+    "halfway": {
+      "hash": "540bb82cf6c2",
+      "text": "[excited] Được một nửa rồi, cố lên!"
+    },
+    "three_left": {
+      "hash": "ab1d360b50af",
+      "text": "[excited] Còn ba cái nữa thôi!"
+    },
+    "last_one": {
+      "hash": "739ea4cb7651",
+      "text": "[shouting] Cái cuối cùng!"
+    },
+    "ten_left": {
+      "hash": "c7e4f7977725",
+      "text": "[excited] Còn mười giây, giữ vững!"
+    },
+    "done": {
+      "hash": "294e3b455d59",
+      "text": "[excited] Tuyệt vời! Bạn đã hoàn thành buổi tập!"
+    },
+    "count_1": {
+      "hash": "da094eb4b2b6",
+      "text": "[excited] Một!"
+    },
+    "reps_1": {
+      "hash": "2d71e97c5ed6",
+      "text": "một lần."
+    },
+    "count_2": {
+      "hash": "a3e57e55df7d",
+      "text": "[excited] Hai!"
+    },
+    "reps_2": {
+      "hash": "a7ce9a2ebcfd",
+      "text": "hai lần."
+    },
+    "count_3": {
+      "hash": "66a974c8356e",
+      "text": "[excited] Ba!"
+    },
+    "reps_3": {
+      "hash": "ff2a20acd264",
+      "text": "ba lần."
+    },
+    "count_4": {
+      "hash": "23df5eba6689",
+      "text": "[excited] Bốn!"
+    },
+    "reps_4": {
+      "hash": "7a3de9983e17",
+      "text": "bốn lần."
+    },
+    "count_5": {
+      "hash": "a6e0b4cf3e13",
+      "text": "[excited] Năm!"
+    },
+    "reps_5": {
+      "hash": "28cebb91c8ea",
+      "text": "năm lần."
+    },
+    "count_6": {
+      "hash": "10e481956c41",
+      "text": "[excited] Sáu!"
+    },
+    "reps_6": {
+      "hash": "c65445ec7671",
+      "text": "sáu lần."
+    },
+    "count_7": {
+      "hash": "280bf079093b",
+      "text": "[excited] Bảy!"
+    },
+    "reps_7": {
+      "hash": "1bca68f6daf1",
+      "text": "bảy lần."
+    },
+    "count_8": {
+      "hash": "e79199260ebb",
+      "text": "[excited] Tám!"
+    },
+    "reps_8": {
+      "hash": "e6fc51c012e5",
+      "text": "tám lần."
+    },
+    "count_9": {
+      "hash": "f2056a2c2bfd",
+      "text": "[excited] Chín!"
+    },
+    "reps_9": {
+      "hash": "f9a4aab86101",
+      "text": "chín lần."
+    },
+    "count_10": {
+      "hash": "538e2dcb6bc4",
+      "text": "[excited] Mười!"
+    },
+    "reps_10": {
+      "hash": "7c436e0f5d44",
+      "text": "mười lần."
+    },
+    "count_11": {
+      "hash": "034fa194664e",
+      "text": "[excited] Mười một!"
+    },
+    "reps_11": {
+      "hash": "9eeb2c7c63dd",
+      "text": "mười một lần."
+    },
+    "count_12": {
+      "hash": "283cc519f0d9",
+      "text": "[excited] Mười hai!"
+    },
+    "reps_12": {
+      "hash": "babb74633a62",
+      "text": "mười hai lần."
+    },
+    "count_13": {
+      "hash": "a29b9ceb0864",
+      "text": "[excited] Mười ba!"
+    },
+    "reps_13": {
+      "hash": "513668be1286",
+      "text": "mười ba lần."
+    },
+    "count_14": {
+      "hash": "7a3a095b83ae",
+      "text": "[excited] Mười bốn!"
+    },
+    "reps_14": {
+      "hash": "0c32391c0903",
+      "text": "mười bốn lần."
+    },
+    "count_15": {
+      "hash": "0395d6e8b391",
+      "text": "[excited] Mười lăm!"
+    },
+    "reps_15": {
+      "hash": "4b78f842d9ea",
+      "text": "mười lăm lần."
+    },
+    "count_16": {
+      "hash": "a88f3fd7f42b",
+      "text": "[excited] Mười sáu!"
+    },
+    "reps_16": {
+      "hash": "42047e91191e",
+      "text": "mười sáu lần."
+    },
+    "count_17": {
+      "hash": "78c3f7a87291",
+      "text": "[excited] Mười bảy!"
+    },
+    "reps_17": {
+      "hash": "ed26f4d6c301",
+      "text": "mười bảy lần."
+    },
+    "count_18": {
+      "hash": "69667f7b1edc",
+      "text": "[excited] Mười tám!"
+    },
+    "reps_18": {
+      "hash": "28aff695df36",
+      "text": "mười tám lần."
+    },
+    "count_19": {
+      "hash": "41531e4eeec8",
+      "text": "[excited] Mười chín!"
+    },
+    "reps_19": {
+      "hash": "e53617fb714f",
+      "text": "mười chín lần."
+    },
+    "count_20": {
+      "hash": "7cf88179209e",
+      "text": "[excited] Hai mươi!"
+    },
+    "reps_20": {
+      "hash": "e9c8cbba5685",
+      "text": "hai mươi lần."
+    },
+    "count_21": {
+      "hash": "0ffce034222f",
+      "text": "[excited] Hai mươi mốt!"
+    },
+    "reps_21": {
+      "hash": "fbc8a3c098d8",
+      "text": "hai mươi mốt lần."
+    },
+    "count_22": {
+      "hash": "12ed76bfe5f8",
+      "text": "[excited] Hai mươi hai!"
+    },
+    "reps_22": {
+      "hash": "67e32590b3c4",
+      "text": "hai mươi hai lần."
+    },
+    "count_23": {
+      "hash": "866505e1a2d7",
+      "text": "[excited] Hai mươi ba!"
+    },
+    "reps_23": {
+      "hash": "a7555f1fe08c",
+      "text": "hai mươi ba lần."
+    },
+    "count_24": {
+      "hash": "15ee460b3d1e",
+      "text": "[excited] Hai mươi tư!"
+    },
+    "reps_24": {
+      "hash": "4cfc0bb0e284",
+      "text": "hai mươi tư lần."
+    },
+    "count_25": {
+      "hash": "d8f41eb35cd8",
+      "text": "[excited] Hai mươi lăm!"
+    },
+    "reps_25": {
+      "hash": "bb4b20bab003",
+      "text": "hai mươi lăm lần."
+    },
+    "count_26": {
+      "hash": "b523aebcca3f",
+      "text": "[excited] Hai mươi sáu!"
+    },
+    "reps_26": {
+      "hash": "6a057fb19bf0",
+      "text": "hai mươi sáu lần."
+    },
+    "count_27": {
+      "hash": "91686a6b542d",
+      "text": "[excited] Hai mươi bảy!"
+    },
+    "reps_27": {
+      "hash": "d431c1522845",
+      "text": "hai mươi bảy lần."
+    },
+    "count_28": {
+      "hash": "b591f3e90896",
+      "text": "[excited] Hai mươi tám!"
+    },
+    "reps_28": {
+      "hash": "ce0a35c7debf",
+      "text": "hai mươi tám lần."
+    },
+    "count_29": {
+      "hash": "2c92ea1d0dc8",
+      "text": "[excited] Hai mươi chín!"
+    },
+    "reps_29": {
+      "hash": "2365ef24192b",
+      "text": "hai mươi chín lần."
+    },
+    "count_30": {
+      "hash": "e4c0bb283d74",
+      "text": "[excited] Ba mươi!"
+    },
+    "reps_30": {
+      "hash": "885e08f37938",
+      "text": "ba mươi lần."
+    },
+    "sec_5": {
+      "hash": "690d60231516",
+      "text": "năm giây."
+    },
+    "rest_5": {
+      "hash": "9acc6a818b23",
+      "text": "Nghỉ năm giây."
+    },
+    "sec_10": {
+      "hash": "71fc0127fcee",
+      "text": "mười giây."
+    },
+    "rest_10": {
+      "hash": "2a8d9d63b4e4",
+      "text": "Nghỉ mười giây."
+    },
+    "sec_15": {
+      "hash": "c075ffca5c96",
+      "text": "mười lăm giây."
+    },
+    "rest_15": {
+      "hash": "638e9909652b",
+      "text": "Nghỉ mười lăm giây."
+    },
+    "sec_20": {
+      "hash": "a4f2a470d666",
+      "text": "hai mươi giây."
+    },
+    "rest_20": {
+      "hash": "535198cd9a50",
+      "text": "Nghỉ hai mươi giây."
+    },
+    "sec_25": {
+      "hash": "c2486839ea5d",
+      "text": "hai mươi lăm giây."
+    },
+    "rest_25": {
+      "hash": "a78aed0b0a76",
+      "text": "Nghỉ hai mươi lăm giây."
+    },
+    "sec_30": {
+      "hash": "470f43795b85",
+      "text": "ba mươi giây."
+    },
+    "rest_30": {
+      "hash": "63a753c92d20",
+      "text": "Nghỉ ba mươi giây."
+    },
+    "sec_35": {
+      "hash": "0dbda755a595",
+      "text": "ba mươi lăm giây."
+    },
+    "rest_35": {
+      "hash": "09138b93a201",
+      "text": "Nghỉ ba mươi lăm giây."
+    },
+    "sec_40": {
+      "hash": "eefc1ae9dc92",
+      "text": "bốn mươi giây."
+    },
+    "rest_40": {
+      "hash": "036e7d2bc395",
+      "text": "Nghỉ bốn mươi giây."
+    },
+    "sec_45": {
+      "hash": "8dab04ad833c",
+      "text": "bốn mươi lăm giây."
+    },
+    "rest_45": {
+      "hash": "d97de9acdfa5",
+      "text": "Nghỉ bốn mươi lăm giây."
+    },
+    "sec_50": {
+      "hash": "f6dc7c204e44",
+      "text": "năm mươi giây."
+    },
+    "rest_50": {
+      "hash": "d5c474d8f2d9",
+      "text": "Nghỉ năm mươi giây."
+    },
+    "sec_60": {
+      "hash": "fa5be2a3df8b",
+      "text": "sáu mươi giây."
+    },
+    "rest_60": {
+      "hash": "6a3cb4eaed65",
+      "text": "Nghỉ sáu mươi giây."
+    },
+    "sec_75": {
+      "hash": "01d653a29241",
+      "text": "bảy mươi lăm giây."
+    },
+    "rest_75": {
+      "hash": "92352395cbb4",
+      "text": "Nghỉ bảy mươi lăm giây."
+    },
+    "sec_90": {
+      "hash": "aba771b4bd15",
+      "text": "chín mươi giây."
+    },
+    "rest_90": {
+      "hash": "1cc813f6d14f",
+      "text": "Nghỉ chín mươi giây."
+    },
+    "sec_120": {
+      "hash": "94378baefa50",
+      "text": "một trăm hai mươi giây."
+    },
+    "rest_120": {
+      "hash": "ca930723fe66",
+      "text": "Nghỉ một trăm hai mươi giây."
+    },
+    "ex_arm-circles": {
+      "hash": "e24a3e48d385",
+      "text": "Xoay tay."
+    },
+    "ex_high-knees": {
+      "hash": "ae8c49658b36",
+      "text": "Nâng gối cao."
+    },
+    "ex_squat": {
+      "hash": "fca1521801fb",
+      "text": "Squat."
+    },
+    "ex_jump-squat": {
+      "hash": "4506c8aa321f",
+      "text": "Squat bật nhảy."
+    },
+    "ex_reverse-lunge": {
+      "hash": "f698d63f0d63",
+      "text": "Lunge lùi."
+    },
+    "ex_glute-bridge": {
+      "hash": "af0c0d62e4ca",
+      "text": "Nâng hông."
+    },
+    "ex_wall-sit": {
+      "hash": "152ccb88d861",
+      "text": "Ngồi dựa tường."
+    },
+    "ex_bulgarian-split-squat": {
+      "hash": "35ca2cabb575",
+      "text": "Bulgarian split squat."
+    },
+    "ex_assisted-pistol-squat": {
+      "hash": "612f23009325",
+      "text": "Pistol squat xuống ghế."
+    },
+    "ex_skater-hop": {
+      "hash": "969ebf88dc4b",
+      "text": "Bật nhảy trượt băng."
+    },
+    "ex_lunge-knee-drive": {
+      "hash": "dfa3335718ea",
+      "text": "Lunge lùi, đẩy gối."
+    },
+    "ex_knee-pushup": {
+      "hash": "9a748744eac5",
+      "text": "Hít đất chống gối."
+    },
+    "ex_pushup": {
+      "hash": "b3f85013499a",
+      "text": "Hít đất."
+    },
+    "ex_pike-pushup": {
+      "hash": "7edf136e15b5",
+      "text": "Hít đất chữ V, Pike."
+    },
+    "ex_chair-dip": {
+      "hash": "ffae36cf0222",
+      "text": "Dip trên ghế."
+    },
+    "ex_diamond-pushup": {
+      "hash": "2e7883376235",
+      "text": "Hít đất kim cương."
+    },
+    "ex_archer-pushup": {
+      "hash": "5d43f9a4513a",
+      "text": "Hít đất cung thủ."
+    },
+    "ex_decline-pushup": {
+      "hash": "582498692a10",
+      "text": "Hít đất gác chân lên ghế."
+    },
+    "ex_hindu-pushup": {
+      "hash": "ee44461f6e45",
+      "text": "Hít đất Hindu."
+    },
+    "ex_dead-hang": {
+      "hash": "5c02d316ce25",
+      "text": "Treo xà."
+    },
+    "ex_pullup": {
+      "hash": "ab78c34a2b27",
+      "text": "Kéo xà."
+    },
+    "ex_superman": {
+      "hash": "04dece013169",
+      "text": "Superman."
+    },
+    "ex_plank": {
+      "hash": "e657511bd131",
+      "text": "Plank."
+    },
+    "ex_leg-raise": {
+      "hash": "6ca692de16ec",
+      "text": "Nâng chân."
+    },
+    "ex_hollow-hold": {
+      "hash": "bca62037d04c",
+      "text": "Giữ thân rỗng, Hollow hold."
+    },
+    "ex_plank-up-down": {
+      "hash": "96c979ab94e0",
+      "text": "Plank lên xuống."
+    },
+    "ex_l-sit": {
+      "hash": "6853d961bff0",
+      "text": "L-sit trên ghế."
+    },
+    "ex_bear-crawl": {
+      "hash": "cd65a30380ab",
+      "text": "Bò gấu."
+    },
+    "ex_mountain-climber": {
+      "hash": "f21075465523",
+      "text": "Leo núi."
+    },
+    "ex_burpee": {
+      "hash": "1d4821551998",
+      "text": "Burpee."
+    },
+    "ex_pushup-jump": {
+      "hash": "c52505d773c9",
+      "text": "Hít đất, bật nhảy."
+    },
+    "ex_pushup-climber": {
+      "hash": "03435dcfa2fa",
+      "text": "Hít đất, leo núi."
+    },
+    "ex_squat-lunge": {
+      "hash": "d79cbbbca668",
+      "text": "Squat, lunge lùi."
+    },
+    "ex_bridge-legraise": {
+      "hash": "249c91b3c75b",
+      "text": "Nâng hông, nâng chân."
+    },
+    "ex_burpee-tuck-jump": {
+      "hash": "8a240a2a3882",
+      "text": "Burpee, bật gối."
+    },
+    "ex_updown-pushup": {
+      "hash": "efc788ca55ae",
+      "text": "Plank lên xuống, hít đất."
+    },
+    "ex_bulgarian-jump": {
+      "hash": "8920746d9ebd",
+      "text": "Bulgarian squat, bật nhảy."
+    },
+    "ex_chinup-knee-raise": {
+      "hash": "1938e02f70bf",
+      "text": "Chin-up, nâng gối treo xà."
+    },
+    "go_2": {
+      "hash": "121956c7069f",
+      "text": "[excited] Nào, chiến thôi!"
+    },
+    "go_3": {
+      "hash": "87a771ab2269",
+      "text": "[excited] Làm thôi nào!"
+    },
+    "halfway_2": {
+      "hash": "1393d9260a52",
+      "text": "[excited] Nửa chặng rồi, giữ nhịp nhé!"
+    },
+    "three_left_2": {
+      "hash": "30f373566f44",
+      "text": "[excited] Ba cái nữa, dồn sức nào!"
+    },
+    "last_one_2": {
+      "hash": "f087b67d085f",
+      "text": "[shouting] Cái cuối, dồn hết sức!"
+    },
+    "ten_left_2": {
+      "hash": "ceac954c12f1",
+      "text": "[excited] Mười giây cuối, đừng bỏ cuộc!"
+    },
+    "done_2": {
+      "hash": "2029441e4c7a",
+      "text": "[excited] Xuất sắc! Hôm nay bạn đã làm rất tốt!"
+    },
+    "tip_breathe": {
+      "hash": "e80ef0ff9b9a",
+      "text": "Hít sâu bằng mũi, thở ra bằng miệng."
+    },
+    "tip_water": {
+      "hash": "31f86f1b96b5",
+      "text": "Uống một ngụm nước nhé."
+    },
+    "tip_shake": {
+      "hash": "f7ae2aea4736",
+      "text": "Lắc nhẹ tay chân cho thả lỏng."
+    },
+    "tip_shoulders": {
+      "hash": "f343d094df6c",
+      "text": "Thả lỏng vai, chuẩn bị cho bài tiếp theo."
+    },
+    "up": {
+      "hash": "642514b0450e",
+      "text": "[excited] Lên!"
+    },
+    "down": {
+      "hash": "55d4278a0be0",
+      "text": "Hạ chậm."
+    },
+    "preview": {
+      "hash": "3caa5153b6fc",
+      "text": "[excited] Xin chào! Tôi là huấn luyện viên của bạn. Cùng tập nào!"
+    },
+    "ex_incline-pushup": {
+      "hash": "47b7b474a686",
+      "text": "Hít đất tay trên ghế."
+    },
+    "ex_wide-pushup": {
+      "hash": "6909bf855bb0",
+      "text": "Hít đất tay rộng."
+    },
+    "ex_plank-shoulder-tap": {
+      "hash": "262c1935d9c0",
+      "text": "Plank chạm vai."
+    },
+    "ex_prone-ytw": {
+      "hash": "1df5922c6ae0",
+      "text": "Nằm sấp, nâng tay chữ Y, chữ T, chữ W."
+    },
+    "ex_plank-to-downdog": {
+      "hash": "ceb29aaf1e0e",
+      "text": "Plank sang chó úp mặt."
+    },
+    "ex_wall-handstand-hold": {
+      "hash": "9d145a9fe45c",
+      "text": "Trồng chuối dựa tường."
+    },
+    "ex_chinup": {
+      "hash": "270b127ed416",
+      "text": "Kéo xà tay ngửa."
+    },
+    "ex_negative-pullup": {
+      "hash": "8cdf73e6308e",
+      "text": "Hạ xà chậm."
+    },
+    "ex_scapula-pullup": {
+      "hash": "3c2047e680b2",
+      "text": "Kéo xà bả vai."
+    },
+    "ex_sumo-squat": {
+      "hash": "9360a8366995",
+      "text": "Squat chân rộng."
+    },
+    "ex_side-lunge": {
+      "hash": "1da3f1a9f926",
+      "text": "Lunge sang ngang."
+    },
+    "ex_step-up": {
+      "hash": "dd03bc56ec5d",
+      "text": "Bước lên ghế."
+    },
+    "ex_calf-raise": {
+      "hash": "c80dfd504293",
+      "text": "Nhón gót chân."
+    },
+    "ex_single-leg-bridge": {
+      "hash": "786dcf59715e",
+      "text": "Nâng hông một chân."
+    },
+    "ex_hip-thrust": {
+      "hash": "98cd41a595fd",
+      "text": "Đẩy hông tựa ghế."
+    },
+    "ex_donkey-kick": {
+      "hash": "f44c3b79cfa8",
+      "text": "Đá chân sau."
+    },
+    "ex_side-plank": {
+      "hash": "5216802356ce",
+      "text": "Plank nghiêng."
+    },
+    "ex_bicycle-crunch": {
+      "hash": "9efa52dcb9a6",
+      "text": "Gập bụng đạp xe."
+    },
+    "ex_dead-bug": {
+      "hash": "3c71224e4865",
+      "text": "Bài bọ chết."
+    },
+    "ex_russian-twist": {
+      "hash": "4e5c839b8bc9",
+      "text": "Xoay người kiểu Nga."
+    },
+    "ex_v-up": {
+      "hash": "d6be9c974a11",
+      "text": "Gập người chữ V."
+    }
+  },
+  "en": {
+    "go": {
+      "hash": "a49b6f90bad9",
+      "text": "[excited] Let's go!"
+    },
+    "ready": {
+      "hash": "df17f6f9e49e",
+      "text": "Get ready!"
+    },
+    "next": {
+      "hash": "a74aa774b955",
+      "text": "Next up:"
+    },
+    "halfway": {
+      "hash": "15ff7c172185",
+      "text": "[excited] Halfway there, keep pushing!"
+    },
+    "three_left": {
+      "hash": "54909fed249a",
+      "text": "[excited] Just three more!"
+    },
+    "last_one": {
+      "hash": "04839be450aa",
+      "text": "[shouting] Last one!"
+    },
+    "ten_left": {
+      "hash": "f29438229e8c",
+      "text": "[excited] Ten seconds left, hold it!"
+    },
+    "done": {
+      "hash": "90cba4d5c980",
+      "text": "[excited] Awesome! You finished the workout!"
+    },
+    "count_1": {
+      "hash": "31f318bfbecf",
+      "text": "[excited] One!"
+    },
+    "reps_1": {
+      "hash": "4a7ab5ee2d90",
+      "text": "one reps."
+    },
+    "count_2": {
+      "hash": "9885be11453b",
+      "text": "[excited] Two!"
+    },
+    "reps_2": {
+      "hash": "2bad5227745d",
+      "text": "two reps."
+    },
+    "count_3": {
+      "hash": "8c196396759f",
+      "text": "[excited] Three!"
+    },
+    "reps_3": {
+      "hash": "0865dfab1c3f",
+      "text": "three reps."
+    },
+    "count_4": {
+      "hash": "420014736edc",
+      "text": "[excited] Four!"
+    },
+    "reps_4": {
+      "hash": "44a6b5f8a766",
+      "text": "four reps."
+    },
+    "count_5": {
+      "hash": "8c0df86dc84f",
+      "text": "[excited] Five!"
+    },
+    "reps_5": {
+      "hash": "7ed69e374199",
+      "text": "five reps."
+    },
+    "count_6": {
+      "hash": "b8e847072d8c",
+      "text": "[excited] Six!"
+    },
+    "reps_6": {
+      "hash": "6d6c33496712",
+      "text": "six reps."
+    },
+    "count_7": {
+      "hash": "0fb49e4e92d5",
+      "text": "[excited] Seven!"
+    },
+    "reps_7": {
+      "hash": "603fc817684d",
+      "text": "seven reps."
+    },
+    "count_8": {
+      "hash": "5ac12857419b",
+      "text": "[excited] Eight!"
+    },
+    "reps_8": {
+      "hash": "3686d3c69d45",
+      "text": "eight reps."
+    },
+    "count_9": {
+      "hash": "6579c7ce2307",
+      "text": "[excited] Nine!"
+    },
+    "reps_9": {
+      "hash": "3a09edf7e97e",
+      "text": "nine reps."
+    },
+    "count_10": {
+      "hash": "88f5c2103b01",
+      "text": "[excited] Ten!"
+    },
+    "reps_10": {
+      "hash": "5ec8dfb05665",
+      "text": "ten reps."
+    },
+    "count_11": {
+      "hash": "5e27fb5fbbbe",
+      "text": "[excited] Eleven!"
+    },
+    "reps_11": {
+      "hash": "db08e58a768b",
+      "text": "eleven reps."
+    },
+    "count_12": {
+      "hash": "ba701d5bd37d",
+      "text": "[excited] Twelve!"
+    },
+    "reps_12": {
+      "hash": "0c3f956b6ac2",
+      "text": "twelve reps."
+    },
+    "count_13": {
+      "hash": "db1ea8e0b7f4",
+      "text": "[excited] Thirteen!"
+    },
+    "reps_13": {
+      "hash": "16a7d2a40f2b",
+      "text": "thirteen reps."
+    },
+    "count_14": {
+      "hash": "e8325a1a6e47",
+      "text": "[excited] Fourteen!"
+    },
+    "reps_14": {
+      "hash": "1e60d50f21d8",
+      "text": "fourteen reps."
+    },
+    "count_15": {
+      "hash": "013f4927799e",
+      "text": "[excited] Fifteen!"
+    },
+    "reps_15": {
+      "hash": "ddb27521aebb",
+      "text": "fifteen reps."
+    },
+    "count_16": {
+      "hash": "57362f3189f5",
+      "text": "[excited] Sixteen!"
+    },
+    "reps_16": {
+      "hash": "cae13ff82d5b",
+      "text": "sixteen reps."
+    },
+    "count_17": {
+      "hash": "70514b6cdef7",
+      "text": "[excited] Seventeen!"
+    },
+    "reps_17": {
+      "hash": "eb972d314b87",
+      "text": "seventeen reps."
+    },
+    "count_18": {
+      "hash": "e09b284ec645",
+      "text": "[excited] Eighteen!"
+    },
+    "reps_18": {
+      "hash": "40d940c7f84a",
+      "text": "eighteen reps."
+    },
+    "count_19": {
+      "hash": "f0ddca03469d",
+      "text": "[excited] Nineteen!"
+    },
+    "reps_19": {
+      "hash": "525306469ed0",
+      "text": "nineteen reps."
+    },
+    "count_20": {
+      "hash": "0e1d892460d2",
+      "text": "[excited] Twenty!"
+    },
+    "reps_20": {
+      "hash": "3377e51ae1bd",
+      "text": "twenty reps."
+    },
+    "count_21": {
+      "hash": "9370ac8c924d",
+      "text": "[excited] Twenty-one!"
+    },
+    "reps_21": {
+      "hash": "131d0af70beb",
+      "text": "twenty-one reps."
+    },
+    "count_22": {
+      "hash": "1724fd71cfe2",
+      "text": "[excited] Twenty-two!"
+    },
+    "reps_22": {
+      "hash": "43a46173d22d",
+      "text": "twenty-two reps."
+    },
+    "count_23": {
+      "hash": "45024f59a360",
+      "text": "[excited] Twenty-three!"
+    },
+    "reps_23": {
+      "hash": "b2d184458ed6",
+      "text": "twenty-three reps."
+    },
+    "count_24": {
+      "hash": "c27b1473bc79",
+      "text": "[excited] Twenty-four!"
+    },
+    "reps_24": {
+      "hash": "25565f165b0d",
+      "text": "twenty-four reps."
+    },
+    "count_25": {
+      "hash": "47ba94dbbd57",
+      "text": "[excited] Twenty-five!"
+    },
+    "reps_25": {
+      "hash": "3ebce44e6244",
+      "text": "twenty-five reps."
+    },
+    "count_26": {
+      "hash": "99ee6701dcdd",
+      "text": "[excited] Twenty-six!"
+    },
+    "reps_26": {
+      "hash": "cb03f91478c7",
+      "text": "twenty-six reps."
+    },
+    "count_27": {
+      "hash": "52f67b762be8",
+      "text": "[excited] Twenty-seven!"
+    },
+    "reps_27": {
+      "hash": "f6c0ae4d5bc4",
+      "text": "twenty-seven reps."
+    },
+    "count_28": {
+      "hash": "fa2ed7033e3d",
+      "text": "[excited] Twenty-eight!"
+    },
+    "reps_28": {
+      "hash": "4621ce6f4bbc",
+      "text": "twenty-eight reps."
+    },
+    "count_29": {
+      "hash": "0e2f0af93337",
+      "text": "[excited] Twenty-nine!"
+    },
+    "reps_29": {
+      "hash": "8a45d9ca7e4c",
+      "text": "twenty-nine reps."
+    },
+    "count_30": {
+      "hash": "0bc8af1a80d0",
+      "text": "[excited] Thirty!"
+    },
+    "reps_30": {
+      "hash": "44e1baa456d2",
+      "text": "thirty reps."
+    },
+    "sec_5": {
+      "hash": "d604bc9a2d64",
+      "text": "five seconds."
+    },
+    "rest_5": {
+      "hash": "30a9e5597a6c",
+      "text": "Rest, five seconds."
+    },
+    "sec_10": {
+      "hash": "2b576bf602e5",
+      "text": "ten seconds."
+    },
+    "rest_10": {
+      "hash": "522ce8e58306",
+      "text": "Rest, ten seconds."
+    },
+    "sec_15": {
+      "hash": "66b2b6256e3c",
+      "text": "fifteen seconds."
+    },
+    "rest_15": {
+      "hash": "242ff492d037",
+      "text": "Rest, fifteen seconds."
+    },
+    "sec_20": {
+      "hash": "4926cba1e611",
+      "text": "twenty seconds."
+    },
+    "rest_20": {
+      "hash": "92b4f7203476",
+      "text": "Rest, twenty seconds."
+    },
+    "sec_25": {
+      "hash": "c2fa8e606932",
+      "text": "twenty-five seconds."
+    },
+    "rest_25": {
+      "hash": "867a8ab5187a",
+      "text": "Rest, twenty-five seconds."
+    },
+    "sec_30": {
+      "hash": "0e072401f861",
+      "text": "thirty seconds."
+    },
+    "rest_30": {
+      "hash": "1db5c4a40716",
+      "text": "Rest, thirty seconds."
+    },
+    "sec_35": {
+      "hash": "f13cbadd29b2",
+      "text": "thirty-five seconds."
+    },
+    "rest_35": {
+      "hash": "1db10b8b2b73",
+      "text": "Rest, thirty-five seconds."
+    },
+    "sec_40": {
+      "hash": "370615c39c69",
+      "text": "forty seconds."
+    },
+    "rest_40": {
+      "hash": "ca1031d85b8f",
+      "text": "Rest, forty seconds."
+    },
+    "sec_45": {
+      "hash": "6ff106c005bc",
+      "text": "forty-five seconds."
+    },
+    "rest_45": {
+      "hash": "f3d2b41ff3f9",
+      "text": "Rest, forty-five seconds."
+    },
+    "sec_50": {
+      "hash": "0553a6e86e8e",
+      "text": "fifty seconds."
+    },
+    "rest_50": {
+      "hash": "6a9aec14102c",
+      "text": "Rest, fifty seconds."
+    },
+    "sec_60": {
+      "hash": "7db9a570b442",
+      "text": "sixty seconds."
+    },
+    "rest_60": {
+      "hash": "60d81f9127be",
+      "text": "Rest, sixty seconds."
+    },
+    "sec_75": {
+      "hash": "f14f6de885b1",
+      "text": "seventy-five seconds."
+    },
+    "rest_75": {
+      "hash": "66ff2ebb5b1c",
+      "text": "Rest, seventy-five seconds."
+    },
+    "sec_90": {
+      "hash": "473f7c9a4462",
+      "text": "ninety seconds."
+    },
+    "rest_90": {
+      "hash": "9bf48167015d",
+      "text": "Rest, ninety seconds."
+    },
+    "sec_120": {
+      "hash": "bb7ce1df97e0",
+      "text": "one hundred twenty seconds."
+    },
+    "rest_120": {
+      "hash": "94a1b6775c15",
+      "text": "Rest, one hundred twenty seconds."
+    },
+    "ex_arm-circles": {
+      "hash": "1d59702f2339",
+      "text": "Arm circles."
+    },
+    "ex_high-knees": {
+      "hash": "69e0c73b2dbd",
+      "text": "High knees."
+    },
+    "ex_squat": {
+      "hash": "b646976f92a2",
+      "text": "Squat."
+    },
+    "ex_jump-squat": {
+      "hash": "dd38c837bdfe",
+      "text": "Jump squat."
+    },
+    "ex_reverse-lunge": {
+      "hash": "8e54c5cb24f8",
+      "text": "Reverse lunge."
+    },
+    "ex_glute-bridge": {
+      "hash": "08fa93ec6ac5",
+      "text": "Glute bridge."
+    },
+    "ex_wall-sit": {
+      "hash": "75d7cc4f8811",
+      "text": "Wall sit."
+    },
+    "ex_bulgarian-split-squat": {
+      "hash": "db506e87cdc7",
+      "text": "Bulgarian split squat."
+    },
+    "ex_assisted-pistol-squat": {
+      "hash": "863f130cd5ef",
+      "text": "Pistol squat to chair."
+    },
+    "ex_skater-hop": {
+      "hash": "6376423c33a4",
+      "text": "Skater hops."
+    },
+    "ex_lunge-knee-drive": {
+      "hash": "a36bd48a7d88",
+      "text": "Lunge with knee drive."
+    },
+    "ex_knee-pushup": {
+      "hash": "9bedae3f345f",
+      "text": "Knee push-up."
+    },
+    "ex_pushup": {
+      "hash": "a462f5d2ea03",
+      "text": "Push-up."
+    },
+    "ex_pike-pushup": {
+      "hash": "521ff4ce93d6",
+      "text": "Pike push-up."
+    },
+    "ex_chair-dip": {
+      "hash": "ae89581e20a2",
+      "text": "Chair dip."
+    },
+    "ex_diamond-pushup": {
+      "hash": "de3cc4dbf733",
+      "text": "Diamond push-up."
+    },
+    "ex_archer-pushup": {
+      "hash": "ceb3b6c6f5c9",
+      "text": "Archer push-up."
+    },
+    "ex_decline-pushup": {
+      "hash": "373aabdd0ff3",
+      "text": "Decline push-up."
+    },
+    "ex_hindu-pushup": {
+      "hash": "3107f209b717",
+      "text": "Hindu push-up."
+    },
+    "ex_dead-hang": {
+      "hash": "a2188a233d30",
+      "text": "Dead hang."
+    },
+    "ex_pullup": {
+      "hash": "ec64b668c03b",
+      "text": "Pull-up."
+    },
+    "ex_superman": {
+      "hash": "c885e05ad1e9",
+      "text": "Superman."
+    },
+    "ex_plank": {
+      "hash": "8062e5c06dbf",
+      "text": "Plank."
+    },
+    "ex_leg-raise": {
+      "hash": "f203825c8bdc",
+      "text": "Leg raise."
+    },
+    "ex_hollow-hold": {
+      "hash": "a7dfbaef0a36",
+      "text": "Hollow hold."
+    },
+    "ex_plank-up-down": {
+      "hash": "3ba33e9e6ed6",
+      "text": "Plank up-down."
+    },
+    "ex_l-sit": {
+      "hash": "8d2558094e33",
+      "text": "Chair L-sit."
+    },
+    "ex_bear-crawl": {
+      "hash": "feafbec98831",
+      "text": "Bear crawl."
+    },
+    "ex_mountain-climber": {
+      "hash": "7cbfe207b293",
+      "text": "Mountain climbers."
+    },
+    "ex_burpee": {
+      "hash": "b56487de428c",
+      "text": "Burpee."
+    },
+    "ex_pushup-jump": {
+      "hash": "d1a988917bee",
+      "text": "Push-up, jump."
+    },
+    "ex_pushup-climber": {
+      "hash": "c79308462a7f",
+      "text": "Push-up, climbers."
+    },
+    "ex_squat-lunge": {
+      "hash": "fe136e8e883f",
+      "text": "Squat, reverse lunge."
+    },
+    "ex_bridge-legraise": {
+      "hash": "5eaf21448e49",
+      "text": "Bridge, leg raise."
+    },
+    "ex_burpee-tuck-jump": {
+      "hash": "75ed15f54062",
+      "text": "Burpee, tuck jump."
+    },
+    "ex_updown-pushup": {
+      "hash": "01423d291ec9",
+      "text": "Plank up-down, push-up."
+    },
+    "ex_bulgarian-jump": {
+      "hash": "01368cddca22",
+      "text": "Bulgarian squat, jump."
+    },
+    "ex_chinup-knee-raise": {
+      "hash": "aa8ca057192a",
+      "text": "Chin-up, hanging knee raise."
+    },
+    "go_2": {
+      "hash": "f27ce55a9896",
+      "text": "[excited] Here we go!"
+    },
+    "go_3": {
+      "hash": "f7a8d88615eb",
+      "text": "[excited] Come on, let's do this!"
+    },
+    "halfway_2": {
+      "hash": "d1159ac09a87",
+      "text": "[excited] Halfway done, keep that pace!"
+    },
+    "three_left_2": {
+      "hash": "c66b715b9b64",
+      "text": "[excited] Three more, dig deep!"
+    },
+    "last_one_2": {
+      "hash": "3bbe946931be",
+      "text": "[shouting] Last one, give it everything!"
+    },
+    "ten_left_2": {
+      "hash": "2e649e48f0db",
+      "text": "[excited] Final ten seconds, don't quit!"
+    },
+    "done_2": {
+      "hash": "e7d784ddc94f",
+      "text": "[excited] Amazing work today, you crushed it!"
+    },
+    "tip_breathe": {
+      "hash": "39aeb57576a0",
+      "text": "Breathe in through your nose, out through your mouth."
+    },
+    "tip_water": {
+      "hash": "9b52d5fd08ee",
+      "text": "Grab a sip of water."
+    },
+    "tip_shake": {
+      "hash": "567eef3142f2",
+      "text": "Shake out your arms and legs."
+    },
+    "tip_shoulders": {
+      "hash": "9b7aac1cde31",
+      "text": "Relax your shoulders, get ready for the next one."
+    },
+    "up": {
+      "hash": "c614f2f5748f",
+      "text": "[excited] Up!"
+    },
+    "down": {
+      "hash": "0bd6ea99d15c",
+      "text": "Lower slowly."
+    },
+    "preview": {
+      "hash": "1403d65bb075",
+      "text": "[excited] Hey! I'm your coach. Let's get to work!"
+    },
+    "ex_incline-pushup": {
+      "hash": "310e10c57a6d",
+      "text": "Incline push-up."
+    },
+    "ex_wide-pushup": {
+      "hash": "5e8f156a1f25",
+      "text": "Wide push-up."
+    },
+    "ex_plank-shoulder-tap": {
+      "hash": "a6221695c108",
+      "text": "Plank shoulder tap."
+    },
+    "ex_prone-ytw": {
+      "hash": "5cfafd6ee491",
+      "text": "Prone Y-T-W raise."
+    },
+    "ex_plank-to-downdog": {
+      "hash": "d9c7a462532c",
+      "text": "Plank to downward dog."
+    },
+    "ex_wall-handstand-hold": {
+      "hash": "ad87d19a81d9",
+      "text": "Wall handstand hold."
+    },
+    "ex_chinup": {
+      "hash": "e94426d62aef",
+      "text": "Chin-up."
+    },
+    "ex_negative-pullup": {
+      "hash": "42eb64c5971b",
+      "text": "Negative pull-up."
+    },
+    "ex_scapula-pullup": {
+      "hash": "15e27b6cfc20",
+      "text": "Scapula pull-up."
+    },
+    "ex_sumo-squat": {
+      "hash": "697d12e37aa9",
+      "text": "Sumo squat."
+    },
+    "ex_side-lunge": {
+      "hash": "fe0327a85ca7",
+      "text": "Side lunge."
+    },
+    "ex_step-up": {
+      "hash": "bdd46d2ff361",
+      "text": "Step-up."
+    },
+    "ex_calf-raise": {
+      "hash": "d3d4844f34f8",
+      "text": "Calf raise."
+    },
+    "ex_single-leg-bridge": {
+      "hash": "be8926747c74",
+      "text": "Single-leg glute bridge."
+    },
+    "ex_hip-thrust": {
+      "hash": "39903cfae6f5",
+      "text": "Hip thrust."
+    },
+    "ex_donkey-kick": {
+      "hash": "dbf0c1acfd1c",
+      "text": "Donkey kick."
+    },
+    "ex_side-plank": {
+      "hash": "1f119b3c43a0",
+      "text": "Side plank."
+    },
+    "ex_bicycle-crunch": {
+      "hash": "9a0b665100cb",
+      "text": "Bicycle crunch."
+    },
+    "ex_dead-bug": {
+      "hash": "9d9337a2dcc8",
+      "text": "Dead bug."
+    },
+    "ex_russian-twist": {
+      "hash": "6f060e1b5bfd",
+      "text": "Russian twist."
+    },
+    "ex_v-up": {
+      "hash": "ff83dde13dd1",
+      "text": "V-up."
+    }
+  }
+}
